@@ -7,24 +7,24 @@ function Signup() {
             <nav>
                 <div className='navbar'>
 
-                    <img src="../pngimg.com-netflix" alt="logo" />
+                    <img className='logo' src="\public\images\pngimg.com - netflix_PNG31.png" alt="logo" />
                 </div>
-                <div>
-                    <select name="" id="">
+                <div className='signin'>
+                    <select className='selectbox' name="" id="">
                         <option value="english">english</option>
                     </select>
-                    <button>signin</button>
+                    <button className='btnsignin'>signin</button>
 
                 </div>
             </nav>
         </div>
             <div className='center'>
-                <h1>unlimited movies,TV shows and more.</h1>
-                <h3>watch anywhere.cancel any time.</h3>
-                <h3>ready to watch? enter to create or restart your membership.</h3>
+                <h1 className='head'>Unlimited movies,TV shows and more.</h1>
+                <p>Watch anywhere.cancel any time.</p>
+                <p>ready to watch? Enter to create or restart your membership.</p>
                 <div className='btncontainer'>
-                    <input className='input' type="email" placeholder='email' />
-                    <button className='btn1'>getstarted</button>
+                    <input className='input' type="email" placeholder='Email address' />
+                    <button className='btn1'>Getstarted</button>
                 </div>
             </div>
         </>
